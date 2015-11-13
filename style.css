@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(http://cdn.backgroundhost.com/backgrounds/subtlepatterns/45degreee_fabric.png)
+}
+
+h1 {
+    border: black 1px solid;
+}
+
+
+
+.page-wrap {
+    background: gray;
+    margin: 30px auto;
+    width: 80%;
+
+}
+
+.grid {
+
+}
+
+.col {
+    float: left;
+    border: black 1px solid;
+    padding: 50px 20px;
+}
+
+.col-1-1 {
+    width:100%;
+    background: gray;
+}
+
+.col-2-3 {
+    width: 66.66%;
+    background: gray;
+}
+
+.col-1-3 {
+    width: 33.33%;
+    background: gray;
+}
+
+.col-1-4 {
+    width: 25%;
+    background: gray;
+
+}
+
+.col-1-8 {
+    width: 12.5%;
+    background: gray;
+}
+
+.col-1-12 {
+    width: 8.33%;
+    background: gray;
+}
+.col-1-2 {
+    width: 50%;
+    background: gray;
+}
+
+.side-bar {
+    float: right;
+    height: 630px;
+    border:none;
+}
+
+.main {
+    height:630px;
+    border: none;
+}
+
+.module {
+    background: #261f21;
+    color: #ffdc7e;
+    padding:20px;
+}
+
+.module h1 {
+    border: none;
+}
+
+.module img {
+    float:left;
+}
